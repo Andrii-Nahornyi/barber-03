@@ -1,0 +1,271 @@
+:root {
+	--main-title-color: #fff;
+	--second-title-color: #303030;
+	--main-btn-color: #fff;
+	--second-btn-color: #303030;
+	--accent-color: #FF6C00;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
+
+.btn {
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	/* - check this - */
+	background-color: inherit;
+}
+
+.top-text {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	text-transform: uppercase;
+}
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+}
+
+.bottom-text {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+}
+
+/* - - - - - - Header - - - - - - */
+
+header {
+	background-color: gray;
+}
+
+.header-link {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+	color: #FFF;
+}
+
+.header-link:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+
+.header-tel {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.header-btn {
+	color: var(--main-btn-color);
+}
+
+.header-btn:is(:hover, :focus) {
+	background-color: var(--accent-color);
+}
+
+/* - - - - - - Hero - - - - - - */
+
+.hero {
+	background-color: gray;
+}
+
+.hero-list {}
+
+.hero-item {}
+
+.hero-link {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.33;
+	letter-spacing: 0.02em;
+	color: #303030;
+}
+
+.hero-link:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+.hero-top-text {
+	color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+	font-size: 72px;
+	line-height: 1.18;
+	color: var(--main-title-color);
+}
+
+.hero-bottom-text {
+	color: #9DA4BD;
+}
+
+/* - - - - - - About section - - - - - - */
+
+.about-section {}
+
+.about-list {}
+
+.about-item {}
+
+.about-top-text {
+	color: #303030;
+}
+
+.about-title {
+	color: var(--second-title-color);
+}
+
+.about-bottom-text {
+	color: #555;
+}
+
+.about-text {
+	font-size: 14px;
+	line-height: 1.86;
+	letter-spacing: 0.02em;
+	color: #555;
+}
+
+.about-btn {
+	color: var(--second-btn-color);
+}
+
+.about-btn:is(:hover, :focus) {
+	color: var(--main-btn-color);
+	background-color: var(--accent-color);
+}
+
+/* - - - - - - Prices section - - - - - - */
+
+.prices-section {
+	background-color: #303030;
+}
+
+.prices-top-text {
+	color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+	color: var(--main-title-color);
+}
+
+.prices-list {}
+
+.prices-item {}
+
+.prices-item-text {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: #9DA4BD;
+}
+
+.prices-btn {
+	color: var(--main-btn-color);
+}
+
+.prices-btn:is(:hover, :focus) {
+	background-color: var(--accent-color);
+}
+
+/* - - - - - Benefits section - - - - - */
+
+.benefits-section {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-item .count {
+	text-align: center;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.36;
+	letter-spacing: 0.05em;
+	color: #303030;
+}
+
+.benefits-item-text {
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	text-align: center;
+	color: #303030;
+}
+
+.benefits-top-text {
+	color: #303030;
+}
+
+.benefits-title {
+	color: var(--second-title-color);
+}
+
+.benefits-bottom-text {
+	color: #555;
+}
+
+/* - - - - - Barbers section - - - - - */
+
+.barbers {}
+
+.barbers-top-text {
+	color: #303030;
+}
+
+.barbers-title {
+	color: var(--second-title-color);
+}
+
+.barbers-list {}
+
+.barbers-item {}
+
+.barbers-item-title {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.39;
+	letter-spacing: 0.02em;
+	color: var(--second-title-color);
+}
+
+.barbers-item-text {
+	color: var(--accent-color);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.36;
+	letter-spacing: 0.02em;
+}
+
+/* - - - - - Gallery section - - - - - */
+
+.gallery-top-text {
+	color: #303030;
+}
