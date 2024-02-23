@@ -427,3 +427,8 @@ header {
 .gallery-item {
 	width: calc((100% - 90px) / 4);
 }
+
+.section-wrap {
+	display: flex;
+	/* flex-grow: 1; */
+}
